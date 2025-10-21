@@ -22,7 +22,7 @@ async function downloadAndConvert(url, outputPath) {
       '-x',                                    // Extract audio
       '--audio-format', 'mp3',                 // Convert to MP3
       '--audio-quality', '0',                  // Best quality
-      '-o', path.join(outputPath, '%(playlist_index)03d-%(artist)s-%(title)s.%(ext)s'), // Output template: 001-ARTIST-TITLE.mp3
+      '-o', path.join(outputPath, '%(playlist_index)03d-%(title)s.%(ext)s'), // e.g. 001-TITLE.mp3
       '--no-playlist',                         // Will be overridden if it's a playlist URL
       url
     ];
@@ -78,9 +78,11 @@ function isValidYouTubeUrl(url) {
  * Main function to run the CLI application
  */
 async function main() {
-  console.log('=================================');
-  console.log('  YouTube MP3 Downloader');
-  console.log('=================================\n');
+  console.log('================================================');
+  console.log('▖▖    ▄▖  ▌     ▖  ▖▄▖▄▖  ▄        ▜      ▌    ');
+  console.log('▌▌▛▌▌▌▐ ▌▌▛▌█▌  ▛▖▞▌▙▌▄▌  ▌▌▛▌▌▌▌▛▌▐ ▛▌▀▌▛▌█▌▛▘');
+  console.log('▐ ▙▌▙▌▐ ▙▌▙▌▙▖  ▌▝ ▌▌ ▄▌  ▙▘▙▌▚▚▘▌▌▐▖▙▌█▌▙▌▙▖▌ ');
+  console.log('================================================\n');
 
   try {
     const questions = [
