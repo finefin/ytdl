@@ -78,12 +78,13 @@ function isValidYouTubeUrl(url) {
  * Main function to run the CLI application
  */
 async function main() {
-  console.log('================================================');
-  console.log('▖▖    ▄▖  ▌     ▖  ▖▄▖▄▖  ▄        ▜      ▌    ');
-  console.log('▌▌▛▌▌▌▐ ▌▌▛▌█▌  ▛▖▞▌▙▌▄▌  ▌▌▛▌▌▌▌▛▌▐ ▛▌▀▌▛▌█▌▛▘');
-  console.log('▐ ▙▌▙▌▐ ▙▌▙▌▙▖  ▌▝ ▌▌ ▄▌  ▙▘▙▌▚▚▘▌▌▐▖▙▌█▌▙▌▙▖▌ ');
-  console.log('================================================\n');
-
+  console.log('==============================');
+  console.log(' ~~ YOUTUBE MP3 DOWNLOADER ~~ ');
+  console.log('==============================\n');
+  console.log(' Install yt-dlp:');
+  console.log(' https://github.com/yt-dlp/yt-dlp#installation ');
+  console.log('==============================\n');
+  
   try {
     const questions = [
       {
