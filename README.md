@@ -1,6 +1,6 @@
-# YouTube MP3 Downloader
+# (not just) YouTube MP3 Downloader
 
-A simple Node.js script that downloads YouTube videos and converts them to MP3 files using yt-dlp.
+A simple Node.js script that downloads videos and converts them to MP3 files using yt-dlp.
 
 ## Features
 
