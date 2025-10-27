@@ -179,10 +179,7 @@ function isValidYouTubeUrl(url) {
 async function main() {
   console.log('==============================');
   console.log(' ~~ YOUTUBE DOWNLOADER ~~ ');
-  console.log('==============================\n');
-  console.log(' Install yt-dlp:');
-  console.log(' https://github.com/yt-dlp/yt-dlp#installation ');
-  console.log('==============================\n');
+  console.log('==============================');
   
   try {
     const questions = [
