@@ -189,7 +189,7 @@ async function main() {
         message: 'Enter YouTube video or playlist URL:',
         validate: (value) => {
           if (!value) return 'URL is required';
-          if (!isValidYouTubeUrl(value)) return 'Please enter a valid YouTube URL';
+          // if (!isValidYouTubeUrl(value)) return 'Please enter a valid YouTube URL';
           return true;
         }
       },
